@@ -1,0 +1,12 @@
+Name: Tristan Bouchard
+Login-ID: Tristan.bouchard@digipen.edu
+Team name: Tuangalie
+
+Main contributions:
+-UI, 
+-menus, 
+-level select, 
+-time,
+-movement, 
+-collision, 
+-player animations.

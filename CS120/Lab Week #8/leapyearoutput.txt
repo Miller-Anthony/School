@@ -1,0 +1,27 @@
+1700 is not a leap year
+1900 is not a leap year
+1901 is not a leap year
+1904 is a leap year
+1999 is not a leap year
+2000 is a leap year
+2300 is not a leap year
+2400 is a leap year
+2001 is not a leap year
+2002 is not a leap year
+2003 is not a leap year
+2004 is a leap year
+2005 is not a leap year
+2006 is not a leap year
+2007 is not a leap year
+2008 is a leap year
+2009 is not a leap year
+2010 is not a leap year
+2011 is not a leap year
+2012 is a leap year
+2013 is not a leap year
+2014 is not a leap year
+2015 is not a leap year
+2016 is a leap year
+2017 is not a leap year
+2018 is not a leap year
+2019 is not a leap year

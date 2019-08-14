@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Awesome Release Mode|Win32">
+      <Configuration>Awesome Release Mode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\AI.h" />
+    <ClInclude Include="Source\Animation.h" />
+    <ClInclude Include="Source\ArmorShop.h" />
+    <ClInclude Include="Source\Camera.h" />
+    <ClInclude Include="Source\Collision.h" />
+    <ClInclude Include="Source\CollisionResolution.h" />
+    <ClInclude Include="Source\Credits.h" />
+    <ClInclude Include="Source\DT.h" />
+    <ClInclude Include="Source\Engine.h" />
+    <ClInclude Include="Source\GameStateBattleRoyale.h" />
+    <ClInclude Include="Source\GameStateBREnd.h" />
+    <ClInclude Include="Source\GameStateLevel1.h" />
+    <ClInclude Include="Source\GameStateLevel2.h" />
+    <ClInclude Include="Source\GameStateLose.h" />
+    <ClInclude Include="Source\GameStateManager.h" />
+    <ClInclude Include="Source\GameStatePhysicalTown.h" />
+    <ClInclude Include="Source\GameStatePVP.h" />
+    <ClInclude Include="Source\GameStatePvPEquip.h" />
+    <ClInclude Include="Source\GameStateStatement.h" />
+    <ClInclude Include="Source\GameStateStub.h" />
+    <ClInclude Include="Source\GameStateTable.h" />
+    <ClInclude Include="Source\GameStateTown.h" />
+    <ClInclude Include="Source\GameStateTutorial.h" />
+    <ClInclude Include="Source\GameStateWin.h" />
+    <ClInclude Include="Source\Input.h" />
+    <ClInclude Include="Source\InventoryStored.h" />
+    <ClInclude Include="Source\InventoryWorn.h" />
+    <ClInclude Include="Source\ItemData.h" />
+    <ClInclude Include="Source\Menu.h" />
+    <ClInclude Include="Source\Mesh.h" />
+    <ClInclude Include="Source\Objects.h" />
+    <ClInclude Include="Source\OST.h" />
+    <ClInclude Include="Source\Particle.h" />
+    <ClInclude Include="Source\ParticleEmitter.h" />
+    <ClInclude Include="Source\ParticleManager.h" />
+    <ClInclude Include="Source\PauseMenu.h" />
+    <ClInclude Include="Source\Physics.h" />
+    <ClInclude Include="Source\Player.h" />
+    <ClInclude Include="Source\PvP.h" />
+    <ClInclude Include="Source\SaveSelect.h" />
+    <ClInclude Include="Source\Settings.h" />
+    <ClInclude Include="Source\Sound.h" />
+    <ClInclude Include="Source\Sprite.h" />
+    <ClInclude Include="Source\SpriteSource.h" />
+    <ClInclude Include="Source\StartSettings.h" />
+    <ClInclude Include="Source\stdafx.h" />
+    <ClInclude Include="Source\Stub.h" />
+    <ClInclude Include="Source\System.h" />
+    <ClInclude Include="Source\targetver.h" />
+    <ClInclude Include="Source\Text.h" />
+    <ClInclude Include="Source\Title.h" />
+    <ClInclude Include="Source\Trace.h" />
+    <ClInclude Include="Source\Transform.h" />
+    <ClInclude Include="Source\Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\AI.c" />
+    <ClCompile Include="Source\Animation.c" />
+    <ClCompile Include="Source\ArmorShop.c" />
+    <ClCompile Include="Source\Camera.c" />
+    <ClCompile Include="Source\Collision.c" />
+    <ClCompile Include="Source\CollisionResolution.c" />
+    <ClCompile Include="Source\Credits.c" />
+    <ClCompile Include="Source\DT.c" />
+    <ClCompile Include="Source\Engine.c" />
+    <ClCompile Include="Source\GameStateBattleRoyale.c" />
+    <ClCompile Include="Source\GameStateBREnd.c" />
+    <ClCompile Include="Source\GameStateLevel1.c" />
+    <ClCompile Include="Source\GameStateLevel2.c" />
+    <ClCompile Include="Source\GameStateLose.c" />
+    <ClCompile Include="Source\GameStateManager.c" />
+    <ClCompile Include="Source\GameStatePhysicalTown.c" />
+    <ClCompile Include="Source\GameStatePVP.c" />
+    <ClCompile Include="Source\GameStatePvPEquip.c" />
+    <ClCompile Include="Source\GameStateStatement.c" />
+    <ClCompile Include="Source\GameStateStub.c" />
+    <ClCompile Include="Source\GameStateTable.c" />
+    <ClCompile Include="Source\GameStateTown.c" />
+    <ClCompile Include="Source\GameStateTutorial.c" />
+    <ClCompile Include="Source\GameStateWin.c" />
+    <ClCompile Include="Source\Input.c" />
+    <ClCompile Include="Source\InventoryStored.c" />
+    <ClCompile Include="Source\InventoryWorn.c" />
+    <ClCompile Include="Source\ItemData.c" />
+    <ClCompile Include="Source\Main.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Awesome Release Mode|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Menu.c" />
+    <ClCompile Include="Source\Mesh.c" />
+    <ClCompile Include="Source\Objects.c" />
+    <ClCompile Include="Source\OST.c" />
+    <ClCompile Include="Source\Particle.c" />
+    <ClCompile Include="Source\ParticleEmitter.c" />
+    <ClCompile Include="Source\ParticleManager.c" />
+    <ClCompile Include="Source\PauseMenu.c" />
+    <ClCompile Include="Source\Physics.c" />
+    <ClCompile Include="Source\Player.c" />
+    <ClCompile Include="Source\PvP.c" />
+    <ClCompile Include="Source\SaveSelect.c" />
+    <ClCompile Include="Source\Settings.c" />
+    <ClCompile Include="Source\Sound.c" />
+    <ClCompile Include="Source\Sprite.c" />
+    <ClCompile Include="Source\SpriteSource.c" />
+    <ClCompile Include="Source\StartSettings.c" />
+    <ClCompile Include="Source\stdafx.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Awesome Release Mode|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\Stub.c" />
+    <ClCompile Include="Source\System.c" />
+    <ClCompile Include="Source\Text.c" />
+    <ClCompile Include="Source\Title.c" />
+    <ClCompile Include="Source\Trace.c" />
+    <ClCompile Include="Source\Transform.c" />
+    <ClCompile Include="Source\Utils.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{71A03382-4E92-4D93-A8D2-58B289C3D484}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Project2_Part1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Awesome Release Mode|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Awesome Release Mode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>.\AE\include;.\FMOD\include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\AE\lib;.\FMOD\lib;$(LibraryPath)</LibraryPath>
+    <CustomBuildAfterTargets />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Awesome Release Mode|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>.\AE\include;.\FMOD\include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\AE\lib;.\FMOD\lib;$(LibraryPath)</LibraryPath>
+    <CustomBuildAfterTargets />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>.\AE\include;.\FMOD\include;$(IncludePath)</IncludePath>
+    <LibraryPath>.\AE\lib;.\FMOD\lib;$(LibraryPath)</LibraryPath>
+    <CustomBuildAfterTargets />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);fmod_vc.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy .\AE\lib\Alpha_Engine_D.dll "$(OutDir)" /Y
+xcopy .\AE\lib\glew32.dll "$(OutDir)" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Awesome Release Mode|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>WIN32;_RELEASE;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);fmod_vc.lib</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseFastLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy .\AE\lib\Alpha_Engine_D.dll "$(OutDir)" /Y
+xcopy .\AE\lib\glew32.dll "$(OutDir)" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories />
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>.\AE\lib\Alpha_Engine.lib;%(AdditionalDependencies);fmod_vc.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy .\AE\lib\Alpha_Engine.dll "$(OutDir)" /Y
+xcopy .\AE\lib\glew32.dll "$(OutDir)" /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{4d1abe46-3fe5-4817-a385-8e82d64af73b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.c" />
+    <ClCompile Include="Source\SceneManager.c" />
+    <ClCompile Include="Source\SceneTable.c" />
+    <ClCompile Include="Source\Scene_DigiPenLogo.c">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene_MainMenu.c">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine.c" />
+    <ClCompile Include="Source\Scene_Game.c">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene_GameOver.c">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputManager.c" />
+    <ClCompile Include="Source\Scene_PHYtest.c" />
+    <ClCompile Include="Source\Scene_Room1.c" />
+    <ClCompile Include="Source\Scene_LevelSelect.c">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene_Clock.c">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NPC.c" />
+    <ClCompile Include="Source\Scene_Room2.c" />
+    <ClCompile Include="Source\Scene_Room3.c" />
+    <ClCompile Include="Source\Scene_Room4.c" />
+    <ClCompile Include="Source\Desk.c">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerManager.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\SceneManager.h" />
+    <ClInclude Include="Source\SceneTable.h" />
+    <ClInclude Include="Source\Scene_DigiPenLogo.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene_MainMenu.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine.h" />
+    <ClInclude Include="Source\Scene_Game.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene_GameOver.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputManager.h" />
+    <ClInclude Include="Source\NPC.h" />
+    <ClInclude Include="Source\Scene_PHYtest.h" />
+    <ClInclude Include="Source\Scene_Room1.h" />
+    <ClInclude Include="Source\Scene_LevelSelect.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene_Clock.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene_Room2.h" />
+    <ClInclude Include="Source\Scene_Room3.h" />
+    <ClInclude Include="Source\Scene_Room4.h" />
+    <ClInclude Include="Source\Desk.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerManager.h" />
+  </ItemGroup>
+</Project>

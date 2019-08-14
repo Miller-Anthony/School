@@ -1,0 +1,22 @@
+﻿  AI.c
+  Credits.c
+  GameStateBREnd.c
+  GameStateBattleRoyale.c
+  GameStateLevel1.c
+  GameStateLevel2.c
+  GameStateLose.c
+  GameStatePhysicalTown.c
+  GameStateTown.c
+  GameStateTutorial.c
+  Menu.c
+  Objects.c
+  SaveSelect.c
+  Settings.c
+  StartSettings.c
+  System.c
+  Generating Code...
+  FortKnight.vcxproj -> C:\Users\Anthony Laptop\Desktop\DigiPen\FortKnight\FortKnight\Debug\FortKnight.exe
+  .\AE\lib\Alpha_Engine_D.dll
+  1 File(s) copied
+  .\AE\lib\glew32.dll
+  1 File(s) copied

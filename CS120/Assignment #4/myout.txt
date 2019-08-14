@@ -1,0 +1,10 @@
+
+Test10 ======================================
+Original phrase:
+batman
+
+Encoded phrase:
+ÅÅÙÓÄÒeebcdeÿÿÿ
+
+Decoded back:
+batman

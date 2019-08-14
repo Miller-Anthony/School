@@ -1,0 +1,9 @@
+Name: Anthony Miller
+Login-ID: Anthony.M@digipen.edu
+Team name: Tuangalie
+
+Main contributions:
+-Hiding under desks
+-NPC sight lines
+-NPC player detection
+-Linking components in levels

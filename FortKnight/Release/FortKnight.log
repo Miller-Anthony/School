@@ -1,0 +1,102 @@
+﻿  AI.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\ai.c(15): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Animation.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\animation.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  ArmorShop.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\armorshop.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Camera.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\camera.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Collision.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\collision.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  CollisionResolution.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\collisionresolution.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Credits.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\credits.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  DT.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\dt.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Engine.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\engine.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStateBattleRoyale.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatebattleroyale.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStateBREnd.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatebrend.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStateLevel1.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatelevel1.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStateLevel2.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatelevel2.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStateLose.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatelose.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStateManager.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatemanager.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStatePVP.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatepvp.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStatePvPEquip.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatepvpequip.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStateStatement.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatestatement.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStateStub.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatestub.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStateTable.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatetable.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Compiling...
+  GameStateTown.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatetown.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStateTutorial.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatetutorial.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  GameStateWin.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\gamestatewin.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Input.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\input.c(9): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  InventoryStored.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\inventorystored.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  InventoryWorn.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\inventoryworn.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  ItemData.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\itemdata.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Main.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\main.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Menu.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\menu.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Mesh.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\mesh.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Objects.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\objects.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  OST.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\ost.c(9): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  PauseMenu.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\pausemenu.c(9): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Physics.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\physics.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Player.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\player.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  PvP.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\pvp.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  SaveSelect.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\saveselect.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Settings.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\settings.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Sound.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\sound.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Sprite.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\sprite.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Compiling...
+  SpriteSource.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\spritesource.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  StartSettings.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\startsettings.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  stdafx.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\stdafx.c(13): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Stub.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\stub.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  System.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\system.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Text.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\text.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Title.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\title.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Trace.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\trace.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Transform.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\transform.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory
+  Utils.c
+c:\users\anthony laptop\desktop\digipen\fortknight\fortknight\source\utils.c(12): fatal error C1083: Cannot open precompiled header file: 'Release\FortKnight.pch': No such file or directory

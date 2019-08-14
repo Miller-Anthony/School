@@ -1,0 +1,15 @@
+﻿  Credits.c
+  GameStateTutorial.c
+  Objects.c
+  SaveSelect.c
+  Settings.c
+  Generating code
+  28 of 384 functions ( 7.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    73 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  FortKnight.vcxproj -> C:\Users\Anthony Laptop\Desktop\DigiPen\FortKnight\FortKnight\Awesome Release Mode\FortKnight.exe
+  .\AE\lib\Alpha_Engine_D.dll
+  1 File(s) copied
+  .\AE\lib\glew32.dll
+  1 File(s) copied

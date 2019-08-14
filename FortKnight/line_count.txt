@@ -1,0 +1,15 @@
+ *** LINE COUNTER *** 
+
+ -- LINES OF CODE -- 
+     3319  akshat.mad
+     3289  brayan.lop
+     1121  anthony.m
+     1028  erich.atwe
+     1002  dieter.voe
+
+ -- COMMENT COUNT -- 
+      996  brayan.lop
+      920  anthony.m
+      674  akshat.mad
+      391  dieter.voe
+       59  erich.atwe

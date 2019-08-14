@@ -1,0 +1,98 @@
+
+********** TestSelectionSort1 **********
+push_back 10 random integers:
+14  9  8  17  14  17  1  12  17  5  (size=10, capacity=16, allocs=5)
+Sorted: compares = 45, swaps = 6
+1  5  8  9  12  14  14  17  17  17  (size=10, capacity=16, allocs=5)
+
+********** TestSelectionSort1 **********
+push_back 10 random integers:
+17  34  30  6  35  30  17  4  29  30  28  24  9  6  29  1  1  38  11  36  (size=20, capacity=32, allocs=6)
+Sorted: compares = 190, swaps = 16
+1  1  4  6  6  9  11  17  17  24  28  29  29  30  30  30  34  35  36  38  (size=20, capacity=32, allocs=6)
+
+********** TestSelectionSort2 **********
+push_back 10 integers:
+0  1  2  3  4  5  6  7  8  9  (size=10, capacity=16, allocs=5)
+Sorted: compares = 45, swaps = 0
+0  1  2  3  4  5  6  7  8  9  (size=10, capacity=16, allocs=5)
+push_back 10 integers:
+10  9  8  7  6  5  4  3  2  1  (size=10, capacity=16, allocs=10)
+Sorted: compares = 45, swaps = 5
+1  2  3  4  5  6  7  8  9  10  (size=10, capacity=16, allocs=10)
+push_back 10 integers:
+5  5  5  5  5  5  5  5  5  5  (size=10, capacity=16, allocs=15)
+Sorted: compares = 45, swaps = 0
+5  5  5  5  5  5  5  5  5  5  (size=10, capacity=16, allocs=15)
+
+********** TestSelectionSort2 **********
+push_back 20 integers:
+0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  (size=20, capacity=32, allocs=6)
+Sorted: compares = 190, swaps = 0
+0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  (size=20, capacity=32, allocs=6)
+push_back 20 integers:
+20  19  18  17  16  15  14  13  12  11  10  9  8  7  6  5  4  3  2  1  (size=20, capacity=32, allocs=12)
+Sorted: compares = 190, swaps = 10
+1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19  20  (size=20, capacity=32, allocs=12)
+push_back 20 integers:
+5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  (size=20, capacity=32, allocs=18)
+Sorted: compares = 190, swaps = 0
+5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  5  (size=20, capacity=32, allocs=18)
+
+********** TestBSearch1 **********
+push_back 10 random integers:
+9909  7374  6884  4027  2334  2547  7954  9488  5690  4690  (size=10, capacity=16, allocs=5)
+2334  2547  4027  4690  5690  6884  7374  7954  9488  9909  (size=10, capacity=16, allocs=5)
+Index of 9909 is 9
+Index of 7374 is 6
+Index of 6884 is 5
+Index of 4027 is 2
+Index of 2334 is 0
+Index of 2547 is 1
+Index of 7954 is 7
+Index of 9488 is 8
+Index of 5690 is 4
+Index of 4690 is 3
+99 is not in the vector
+
+********** TestBSearch1 **********
+push_back 10 random integers:
+3286  4177  7547  6889  7577  2091  2308  5656  9261  9987  8966  9889  3959  6996  5755  5442  1103  9636  9051  9068  (size=20, capacity=32, allocs=6)
+1103  2091  2308  3286  3959  4177  5442  5656  5755  6889  6996  7547  7577  8966  9051  9068  9261  9636  9889  9987  (size=20, capacity=32, allocs=6)
+Index of 3286 is 3
+Index of 4177 is 5
+Index of 7547 is 11
+Index of 6889 is 9
+Index of 7577 is 12
+Index of 2091 is 1
+Index of 2308 is 2
+Index of 5656 is 7
+Index of 9261 is 16
+Index of 9987 is 19
+Index of 8966 is 13
+Index of 9889 is 18
+Index of 3959 is 4
+Index of 6996 is 10
+Index of 5755 is 8
+Index of 5442 is 6
+Index of 1103 is 0
+Index of 9636 is 17
+Index of 9051 is 14
+Index of 9068 is 15
+99 is not in the vector
+
+********** TestBSearchStress **********
+Generating...
+Shuffling...
+Pushing back...
+Searching...
+Index of 5416 is 2836
+Index of 2154 is 1118
+Index of 6469 is 3356
+Index of 3718 is 1916
+Index of 6851 is 3562
+Done...
+
+********** TestSelectionSortStress **********
+Sorted: compares = 49995000, swaps = 9989
+1  2  5  12  19  41  71  139  258  511  1019  2069  4093  8220  

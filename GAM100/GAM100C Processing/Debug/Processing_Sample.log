@@ -1,0 +1,20 @@
+﻿  main.c
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(506): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(523): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(559): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(564): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(569): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(578): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(583): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(588): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(597): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(602): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(607): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(621): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\gam100c processing\main.c(626): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+  Processing_Sample.vcxproj -> E:\anthony.m\2018\Fall Semester\GAM100\GAM100C Processing\Debug\Processing_Sample.exe
+  1 File(s) copied
+  1 File(s) copied
+  1 File(s) copied
+  1 File(s) copied
+  29 File(s) copied

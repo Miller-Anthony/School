@@ -1,0 +1,569 @@
+Report for: anthony.m
+Assignment: #1
+============================================================
+
+************************************************************
+Failed tests
+************************************************************
+test01: FAILED (-10)
+test02: FAILED (-20)
+test03: FAILED (-25)
+test04: FAILED (-35)
+test05: FAILED (-10)
+memleak: FAILED (-10)
+membugs: FAILED (  0)
+  Failure deductions: -110
+
+This program has failed 7 test(s) for various reasons. Some
+of the failures may be due to incorrect output, taking too
+long to run, memory bugs and/or leaks, or other possible
+reasons. The remainder of this document shows the kinds of
+problems that were encountered.
+
+************************************************************
+Differences
+************************************************************
+3a4,36
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+> 
+> Boat placement is accepted.
+> Boat placement is accepted.
+> Boat placement is accepted.
+> Boat placement is rejected.
+> Boat placement is rejected.
+> Boat placement is rejected.
+> The board with 3 boats
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   2   0   0
+>    0   0   0   0   0   2   0   0
+>    0   1   1   1   1   2   0   0
+>    0   0   0   0   0   2   0   0
+>    3   3   3   3   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+> 
+3a4,120
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+> 
+> The board with 3 boats
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   2   0   0
+>    0   0   0   0   0   2   0   0
+>    0   1   1   1   1   2   0   0
+>    0   0   0   0   0   2   0   0
+>    3   3   3   3   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+> 
+> Shot: 10, 5  ILLEGAL
+>       Hits:   0
+>     Misses:   0
+> Duplicates:   0
+> Boats Sunk:   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   2   0   0
+>    0   0   0   0   0   2   0   0
+>    0   1   1   1   1   2   0   0
+>    0   0   0   0   0   2   0   0
+>    3   3   3   3   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+> 
+> Shot: 1, 3  HIT
+>       Hits:   1
+>     Misses:   0
+> Duplicates:   0
+> Boats Sunk:   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   2   0   0
+>    0   0   0   0   0   2   0   0
+>    0 101   1   1   1   2   0   0
+>    0   0   0   0   0   2   0   0
+>    3   3   3   3   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   0   0   0
+> 
+> Shot: 5, 7  MISS
+>       Hits:   1
+>     Misses:   1
+> Duplicates:   0
+> Boats Sunk:   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   2   0   0
+>    0   0   0   0   0   2   0   0
+>    0 101   1   1   1   2   0   0
+>    0   0   0   0   0   2   0   0
+>    3   3   3   3   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0  -1   0   0
+> 
+> Shot: 1, 3  DUPLICATE
+>       Hits:   1
+>     Misses:   1
+> Duplicates:   1
+> Boats Sunk:   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   2   0   0
+>    0   0   0   0   0   2   0   0
+>    0 101   1   1   1   2   0   0
+>    0   0   0   0   0   2   0   0
+>    3   3   3   3   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0  -1   0   0
+> 
+> Shot: 2, 3  HIT
+>       Hits:   2
+>     Misses:   1
+> Duplicates:   1
+> Boats Sunk:   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   2   0   0
+>    0   0   0   0   0   2   0   0
+>    0 101 101   1   1   2   0   0
+>    0   0   0   0   0   2   0   0
+>    3   3   3   3   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0  -1   0   0
+> 
+> Shot: 3, 3  HIT
+>       Hits:   3
+>     Misses:   1
+> Duplicates:   1
+> Boats Sunk:   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   2   0   0
+>    0   0   0   0   0   2   0   0
+>    0 101 101 101   1   2   0   0
+>    0   0   0   0   0   2   0   0
+>    3   3   3   3   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0  -1   0   0
+> 
+> Shot: 4, 3  SUNK
+>       Hits:   4
+>     Misses:   1
+> Duplicates:   1
+> Boats Sunk:   1
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0   2   0   0
+>    0   0   0   0   0   2   0   0
+>    0 101 101 101 101   2   0   0
+>    0   0   0   0   0   2   0   0
+>    3   3   3   3   0   0   0   0
+>    0   0   0   0   0   0   0   0
+>    0   0   0   0   0  -1   0   0
+> 
+0a1,16
+> 
+> *************** test3 ***************
+>       Hits:  20
+>     Misses:  72
+> Duplicates: 177
+> Boats Sunk:   5
+>   -1  -1  -1  -1  -1  -1  -1   0  -1  -1
+>   -1  -1  -1  -1  -1 102   0  -1  -1  -1
+>   -1  -1  -1  -1  -1 102  -1  -1  -1   0
+>   -1 101 101 101 101 102  -1  -1   0  -1
+>   -1  -1  -1  -1  -1 102  -1  -1  -1   0
+>  103 103 103 103  -1  -1  -1  -1  -1  -1
+>   -1   0  -1  -1  -1  -1  -1  -1  -1 105
+>    0  -1  -1  -1  -1  -1  -1  -1  -1 105
+>   -1  -1  -1 104 104 104 104  -1  -1 105
+>    0  -1  -1  -1  -1  -1  -1  -1  -1 105
+0a1,38
+> 
+> *************** test4 ***************
+> Final board:
+>       Hits: 200
+>     Misses: 689
+> Duplicates: 2847
+> Boats Sunk:  50
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 136 136 136 136  -1  -1  -1 118  -1  -1  -1  -1  -1  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 118  -1  -1 139  -1   0  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 130  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 118  -1  -1 139  -1  -1  -1  -1
+>   -1  -1  -1  -1 112 112 112 112  -1  -1 123 130  -1 128 128 128 128  -1  -1  -1  -1  -1 118  -1  -1 139  -1  -1  -1  -1
+>   -1  -1  -1  -1  -1  -1 104 104 104 104 123 130  -1  -1 129  -1  -1  -1 106  -1  -1  -1  -1  -1  -1 139  -1 124  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 123 130  -1  -1 129  -1  -1  -1 106  -1  -1  -1 132  -1  -1  -1  -1 124  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 123  -1  -1  -1 129  -1  -1 145 106  -1  -1  -1 132  -1  -1  -1   0 124  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 102  -1  -1 129  -1  -1 145 106  -1  -1  -1 132  -1  -1  -1  -1 124  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 102  -1 138  -1  -1  -1 145  -1  -1  -1  -1 132  -1  -1  -1  -1  -1   0  -1
+>   -1   0  -1  -1  -1  -1  -1  -1  -1  -1  -1 102  -1 138  -1 108  -1 145  -1 114 114 114 114  -1  -1  -1  -1  -1  -1  -1
+>   -1  -1  -1   0  -1  -1  -1  -1  -1  -1  -1 102  -1 138  -1 108  -1  -1 134  -1 110  -1  -1  -1  -1  -1 149 149 149 149
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 138  -1 108  -1  -1 134  -1 110  -1  -1  -1  -1  -1  -1  -1  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 108  -1  -1 134  -1 110  -1  -1  -1  -1  -1  -1 125  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 134  -1 110  -1  -1  -1  -1  -1  -1 125  -1  -1
+>  135  -1  -1  -1  -1   0  -1  -1  -1  -1 119 119 119 119  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 125  -1  -1
+>  135  -1  -1  -1  -1 142 142 142 142  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 127 125  -1  -1
+>  135  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 113 113 113 113   0  -1  -1  -1 127  -1  -1  -1
+>  135 122 122 122 122  -1  -1  -1  -1  -1  -1  -1 105 105 105 105  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 127  -1  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1 126 126 126 126  -1  -1  -1  -1  -1  -1   0  -1  -1  -1  -1  -1  -1  -1 127  -1  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 121 121 121 121 107 107 107 107  -1 143  -1  -1  -1   0  -1  -1
+>   -1  -1  -1  -1  -1 148 148 148 148  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 143  -1  -1  -1  -1  -1  -1
+>   -1  -1  -1  -1  -1 101 101 101 101  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 143  -1  -1  -1  -1   0  -1
+>   -1  -1  -1  -1 147 147 147 147  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1 143  -1   0  -1  -1  -1  -1
+>  117 117 117 117  -1  -1  -1 140 140 140 140  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1 116  -1  -1  -1  -1  -1 150 150 150 150  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+>  144 144 144 144  -1  -1  -1  -1 116  -1  -1 137 137 137 137  -1  -1 141  -1  -1  -1  -1  -1  -1 109 109 109 109  -1  -1
+>   -1  -1  -1 131  -1  -1  -1  -1 116  -1 111 111 111 111  -1  -1  -1 141  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+>   -1  -1  -1 131  -1  -1  -1  -1 116  -1  -1  -1 146 146 146 146  -1 141  -1 133 133 133 133  -1  -1  -1  -1  -1  -1  -1
+>   -1  -1  -1 131 115 115 115 115  -1  -1  -1  -1  -1  -1  -1  -1  -1 141  -1  -1  -1  -1  -1  -1  -1 120 120 120 120  -1
+>   -1  -1  -1 131  -1 103 103 103 103  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+> 
+0a1,17
+> 
+> *************** test5 ***************
+> Final board:
+>       Hits:  20
+>     Misses: 112
+> Duplicates: 394
+> Boats Sunk:   5
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+>   -1  -1   0  -1  -1 102 102 102 102  -1  -1  -1  -1  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+>   -1  -1  -1  -1  -1  -1 103 103 103 103  -1 104 104 104 104
+>   -1  -1  -1  -1  -1   0  -1  -1  -1  -1  -1  -1  -1  -1   0
+>   -1  -1  -1  -1  -1 101 101 101 101  -1  -1  -1  -1  -1  -1
+>   -1  -1  -1 105 105 105 105  -1  -1  -1  -1  -1  -1  -1  -1
+>   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+> 
+
+************************************************************
+Valgrind problems
+************************************************************
+==30421== Conditional jump or move depends on uninitialised value(s)
+==30421==    at 0x402280: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:90)
+==30421==    by 0x400B55: test1() (driver.cpp:46)
+==30421==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30421==    by 0x4021FD: main (driver.cpp:473)
+==30421== 
+==30421== Conditional jump or move depends on uninitialised value(s)
+==30421==    at 0x4022ED: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:107)
+==30421==    by 0x400B55: test1() (driver.cpp:46)
+==30421==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30421==    by 0x4021FD: main (driver.cpp:473)
+==30421== 
+==30421== Use of uninitialised value of size 8
+==30421==    at 0x402657: CS170::WarBoats::DumpOcean(CS170::WarBoats::Ocean const&, int, bool, bool) (Ocean.cpp:368)
+==30421==    by 0x400BC1: test1() (driver.cpp:50)
+==30421==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30421==    by 0x4021FD: main (driver.cpp:473)
+==30421== 
+==30421== Invalid read of size 4
+==30421==    at 0x402657: CS170::WarBoats::DumpOcean(CS170::WarBoats::Ocean const&, int, bool, bool) (Ocean.cpp:368)
+==30421==    by 0x400BC1: test1() (driver.cpp:50)
+==30421==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30421==    by 0x4021FD: main (driver.cpp:473)
+==30421==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==30421== 
+==30421== 
+==30421== Process terminating with default action of signal 11 (SIGSEGV)
+==30421==  Access not within mapped region at address 0x0
+==30421==    at 0x402657: CS170::WarBoats::DumpOcean(CS170::WarBoats::Ocean const&, int, bool, bool) (Ocean.cpp:368)
+==30421==    by 0x400BC1: test1() (driver.cpp:50)
+==30421==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30421==    by 0x4021FD: main (driver.cpp:473)
+==30421==  If you believe this happened as a result of a stack
+==30421==  overflow in your program's main thread (unlikely but
+==30421==  possible), you can try to increase the size of the
+==30421==  main thread stack using the --main-stacksize= flag.
+==30421==  The main thread stack size used in this run was 8388608.
+==30421== 48 bytes in 1 blocks are still reachable in loss record 1 of 4
+==30421==    at 0x4C2B0E0: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30421==    by 0x402242: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:81)
+==30421==    by 0x400B55: test1() (driver.cpp:46)
+==30421==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30421==    by 0x4021FD: main (driver.cpp:473)
+==30421== 
+==30421== 60 bytes in 1 blocks are definitely lost in loss record 2 of 4
+==30421==    at 0x4C2B800: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30421==    by 0x4022E7: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:104)
+==30421==    by 0x400B55: test1() (driver.cpp:46)
+==30421==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30421==    by 0x4021FD: main (driver.cpp:473)
+==30421== 
+==30421== 384 bytes in 1 blocks are definitely lost in loss record 3 of 4
+==30421==    at 0x4C2B800: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30421==    by 0x40227B: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:87)
+==30421==    by 0x400B55: test1() (driver.cpp:46)
+==30421==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30421==    by 0x4021FD: main (driver.cpp:473)
+==30421== 
+!!!!! Something bad happened running valgrind --suppressions=/home/mmead/bin/false.supp -q --leak-check=full --show-reachable=yes --tool=memcheck ./driver.exe 1  (No child processes) !!!!!
+==30425== Conditional jump or move depends on uninitialised value(s)
+==30425==    at 0x402280: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:90)
+==30425==    by 0x4019FC: test2() (driver.cpp:146)
+==30425==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30425==    by 0x4021FD: main (driver.cpp:473)
+==30425== 
+==30425== Conditional jump or move depends on uninitialised value(s)
+==30425==    at 0x4022ED: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:107)
+==30425==    by 0x4019FC: test2() (driver.cpp:146)
+==30425==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30425==    by 0x4021FD: main (driver.cpp:473)
+==30425== 
+==30425== Use of uninitialised value of size 8
+==30425==    at 0x402657: CS170::WarBoats::DumpOcean(CS170::WarBoats::Ocean const&, int, bool, bool) (Ocean.cpp:368)
+==30425==    by 0x401A68: test2() (driver.cpp:150)
+==30425==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30425==    by 0x4021FD: main (driver.cpp:473)
+==30425== 
+==30425== Invalid read of size 4
+==30425==    at 0x402657: CS170::WarBoats::DumpOcean(CS170::WarBoats::Ocean const&, int, bool, bool) (Ocean.cpp:368)
+==30425==    by 0x401A68: test2() (driver.cpp:150)
+==30425==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30425==    by 0x4021FD: main (driver.cpp:473)
+==30425==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==30425== 
+==30425== 
+==30425== Process terminating with default action of signal 11 (SIGSEGV)
+==30425==  Access not within mapped region at address 0x0
+==30425==    at 0x402657: CS170::WarBoats::DumpOcean(CS170::WarBoats::Ocean const&, int, bool, bool) (Ocean.cpp:368)
+==30425==    by 0x401A68: test2() (driver.cpp:150)
+==30425==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30425==    by 0x4021FD: main (driver.cpp:473)
+==30425==  If you believe this happened as a result of a stack
+==30425==  overflow in your program's main thread (unlikely but
+==30425==  possible), you can try to increase the size of the
+==30425==  main thread stack using the --main-stacksize= flag.
+==30425==  The main thread stack size used in this run was 8388608.
+==30425== 48 bytes in 1 blocks are still reachable in loss record 1 of 4
+==30425==    at 0x4C2B0E0: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30425==    by 0x402242: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:81)
+==30425==    by 0x4019FC: test2() (driver.cpp:146)
+==30425==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30425==    by 0x4021FD: main (driver.cpp:473)
+==30425== 
+==30425== 60 bytes in 1 blocks are definitely lost in loss record 2 of 4
+==30425==    at 0x4C2B800: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30425==    by 0x4022E7: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:104)
+==30425==    by 0x4019FC: test2() (driver.cpp:146)
+==30425==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30425==    by 0x4021FD: main (driver.cpp:473)
+==30425== 
+==30425== 256 bytes in 1 blocks are definitely lost in loss record 3 of 4
+==30425==    at 0x4C2B800: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30425==    by 0x40227B: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:87)
+==30425==    by 0x4019FC: test2() (driver.cpp:146)
+==30425==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30425==    by 0x4021FD: main (driver.cpp:473)
+==30425== 
+!!!!! Something bad happened running valgrind --suppressions=/home/mmead/bin/false.supp -q --leak-check=full --show-reachable=yes --tool=memcheck ./driver.exe 2  (No child processes) !!!!!
+==30429== Conditional jump or move depends on uninitialised value(s)
+==30429==    at 0x402280: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:90)
+==30429==    by 0x401748: test3() (driver.cpp:233)
+==30429==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30429==    by 0x4021FD: main (driver.cpp:473)
+==30429== 
+==30429== Conditional jump or move depends on uninitialised value(s)
+==30429==    at 0x4022ED: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:107)
+==30429==    by 0x401748: test3() (driver.cpp:233)
+==30429==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30429==    by 0x4021FD: main (driver.cpp:473)
+==30429== 
+==30429== Use of uninitialised value of size 8
+==30429==    at 0x4024E0: CS170::WarBoats::PlaceBoat(CS170::WarBoats::Ocean&, CS170::WarBoats::Boat const&) (Ocean.cpp:256)
+==30429==    by 0x401778: test3() (driver.cpp:249)
+==30429==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30429==    by 0x4021FD: main (driver.cpp:473)
+==30429== 
+==30429== Invalid read of size 4
+==30429==    at 0x4024E0: CS170::WarBoats::PlaceBoat(CS170::WarBoats::Ocean&, CS170::WarBoats::Boat const&) (Ocean.cpp:256)
+==30429==    by 0x401778: test3() (driver.cpp:249)
+==30429==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30429==    by 0x4021FD: main (driver.cpp:473)
+==30429==  Address 0x7c is not stack'd, malloc'd or (recently) free'd
+==30429== 
+==30429== 
+==30429== Process terminating with default action of signal 11 (SIGSEGV)
+==30429==  Access not within mapped region at address 0x7C
+==30429==    at 0x4024E0: CS170::WarBoats::PlaceBoat(CS170::WarBoats::Ocean&, CS170::WarBoats::Boat const&) (Ocean.cpp:256)
+==30429==    by 0x401778: test3() (driver.cpp:249)
+==30429==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30429==    by 0x4021FD: main (driver.cpp:473)
+==30429==  If you believe this happened as a result of a stack
+==30429==  overflow in your program's main thread (unlikely but
+==30429==  possible), you can try to increase the size of the
+==30429==  main thread stack using the --main-stacksize= flag.
+==30429==  The main thread stack size used in this run was 8388608.
+==30429== 48 bytes in 1 blocks are definitely lost in loss record 1 of 4
+==30429==    at 0x4C2B0E0: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30429==    by 0x402242: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:81)
+==30429==    by 0x401748: test3() (driver.cpp:233)
+==30429==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30429==    by 0x4021FD: main (driver.cpp:473)
+==30429== 
+==30429== 100 bytes in 1 blocks are definitely lost in loss record 2 of 4
+==30429==    at 0x4C2B800: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30429==    by 0x4022E7: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:104)
+==30429==    by 0x401748: test3() (driver.cpp:233)
+==30429==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30429==    by 0x4021FD: main (driver.cpp:473)
+==30429== 
+==30429== 400 bytes in 1 blocks are definitely lost in loss record 3 of 4
+==30429==    at 0x4C2B800: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30429==    by 0x40227B: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:87)
+==30429==    by 0x401748: test3() (driver.cpp:233)
+==30429==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30429==    by 0x4021FD: main (driver.cpp:473)
+==30429== 
+!!!!! Something bad happened running valgrind --suppressions=/home/mmead/bin/false.supp -q --leak-check=full --show-reachable=yes --tool=memcheck ./driver.exe 3  (No child processes) !!!!!
+==30433== Conditional jump or move depends on uninitialised value(s)
+==30433==    at 0x402280: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:90)
+==30433==    by 0x401D98: test_big(int, int, int, bool, bool, bool) (driver.cpp:337)
+==30433==    by 0x4020AA: test4() (driver.cpp:424)
+==30433==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30433==    by 0x4021FD: main (driver.cpp:473)
+==30433== 
+==30433== Conditional jump or move depends on uninitialised value(s)
+==30433==    at 0x4022ED: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:107)
+==30433==    by 0x401D98: test_big(int, int, int, bool, bool, bool) (driver.cpp:337)
+==30433==    by 0x4020AA: test4() (driver.cpp:424)
+==30433==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30433==    by 0x4021FD: main (driver.cpp:473)
+==30433== 
+==30433== Use of uninitialised value of size 8
+==30433==    at 0x4024E0: CS170::WarBoats::PlaceBoat(CS170::WarBoats::Ocean&, CS170::WarBoats::Boat const&) (Ocean.cpp:256)
+==30433==    by 0x401E07: test_big(int, int, int, bool, bool, bool) (driver.cpp:363)
+==30433==    by 0x4020AA: test4() (driver.cpp:424)
+==30433==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30433==    by 0x4021FD: main (driver.cpp:473)
+==30433== 
+==30433== Invalid read of size 4
+==30433==    at 0x4024E0: CS170::WarBoats::PlaceBoat(CS170::WarBoats::Ocean&, CS170::WarBoats::Boat const&) (Ocean.cpp:256)
+==30433==    by 0x401E07: test_big(int, int, int, bool, bool, bool) (driver.cpp:363)
+==30433==    by 0x4020AA: test4() (driver.cpp:424)
+==30433==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30433==    by 0x4021FD: main (driver.cpp:473)
+==30433==  Address 0x9ec is not stack'd, malloc'd or (recently) free'd
+==30433== 
+==30433== 
+==30433== Process terminating with default action of signal 11 (SIGSEGV)
+==30433==  Access not within mapped region at address 0x9EC
+==30433==    at 0x4024E0: CS170::WarBoats::PlaceBoat(CS170::WarBoats::Ocean&, CS170::WarBoats::Boat const&) (Ocean.cpp:256)
+==30433==    by 0x401E07: test_big(int, int, int, bool, bool, bool) (driver.cpp:363)
+==30433==    by 0x4020AA: test4() (driver.cpp:424)
+==30433==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30433==    by 0x4021FD: main (driver.cpp:473)
+==30433==  If you believe this happened as a result of a stack
+==30433==  overflow in your program's main thread (unlikely but
+==30433==  possible), you can try to increase the size of the
+==30433==  main thread stack using the --main-stacksize= flag.
+==30433==  The main thread stack size used in this run was 8388608.
+==30433== 48 bytes in 1 blocks are definitely lost in loss record 1 of 4
+==30433==    at 0x4C2B0E0: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30433==    by 0x402242: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:81)
+==30433==    by 0x401D98: test_big(int, int, int, bool, bool, bool) (driver.cpp:337)
+==30433==    by 0x4020AA: test4() (driver.cpp:424)
+==30433==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30433==    by 0x4021FD: main (driver.cpp:473)
+==30433== 
+==30433== 1,000 bytes in 1 blocks are definitely lost in loss record 2 of 4
+==30433==    at 0x4C2B800: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30433==    by 0x4022E7: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:104)
+==30433==    by 0x401D98: test_big(int, int, int, bool, bool, bool) (driver.cpp:337)
+==30433==    by 0x4020AA: test4() (driver.cpp:424)
+==30433==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30433==    by 0x4021FD: main (driver.cpp:473)
+==30433== 
+==30433== 3,600 bytes in 1 blocks are definitely lost in loss record 3 of 4
+==30433==    at 0x4C2B800: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30433==    by 0x40227B: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:87)
+==30433==    by 0x401D98: test_big(int, int, int, bool, bool, bool) (driver.cpp:337)
+==30433==    by 0x4020AA: test4() (driver.cpp:424)
+==30433==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30433==    by 0x4021FD: main (driver.cpp:473)
+==30433== 
+!!!!! Something bad happened running valgrind --suppressions=/home/mmead/bin/false.supp -q --leak-check=full --show-reachable=yes --tool=memcheck ./driver.exe 4  (No child processes) !!!!!
+==30437== Conditional jump or move depends on uninitialised value(s)
+==30437==    at 0x402280: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:90)
+==30437==    by 0x401D98: test_big(int, int, int, bool, bool, bool) (driver.cpp:337)
+==30437==    by 0x4020EC: test5() (driver.cpp:430)
+==30437==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30437==    by 0x4021FD: main (driver.cpp:473)
+==30437== 
+==30437== Conditional jump or move depends on uninitialised value(s)
+==30437==    at 0x4022ED: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:107)
+==30437==    by 0x401D98: test_big(int, int, int, bool, bool, bool) (driver.cpp:337)
+==30437==    by 0x4020EC: test5() (driver.cpp:430)
+==30437==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30437==    by 0x4021FD: main (driver.cpp:473)
+==30437== 
+==30437== Use of uninitialised value of size 8
+==30437==    at 0x4024E0: CS170::WarBoats::PlaceBoat(CS170::WarBoats::Ocean&, CS170::WarBoats::Boat const&) (Ocean.cpp:256)
+==30437==    by 0x401E07: test_big(int, int, int, bool, bool, bool) (driver.cpp:363)
+==30437==    by 0x4020EC: test5() (driver.cpp:430)
+==30437==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30437==    by 0x4021FD: main (driver.cpp:473)
+==30437== 
+==30437== Invalid read of size 4
+==30437==    at 0x4024E0: CS170::WarBoats::PlaceBoat(CS170::WarBoats::Ocean&, CS170::WarBoats::Boat const&) (Ocean.cpp:256)
+==30437==    by 0x401E07: test_big(int, int, int, bool, bool, bool) (driver.cpp:363)
+==30437==    by 0x4020EC: test5() (driver.cpp:430)
+==30437==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30437==    by 0x4021FD: main (driver.cpp:473)
+==30437==  Address 0x17c is not stack'd, malloc'd or (recently) free'd
+==30437== 
+==30437== 
+==30437== Process terminating with default action of signal 11 (SIGSEGV)
+==30437==  Access not within mapped region at address 0x17C
+==30437==    at 0x4024E0: CS170::WarBoats::PlaceBoat(CS170::WarBoats::Ocean&, CS170::WarBoats::Boat const&) (Ocean.cpp:256)
+==30437==    by 0x401E07: test_big(int, int, int, bool, bool, bool) (driver.cpp:363)
+==30437==    by 0x4020EC: test5() (driver.cpp:430)
+==30437==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30437==    by 0x4021FD: main (driver.cpp:473)
+==30437==  If you believe this happened as a result of a stack
+==30437==  overflow in your program's main thread (unlikely but
+==30437==  possible), you can try to increase the size of the
+==30437==  main thread stack using the --main-stacksize= flag.
+==30437==  The main thread stack size used in this run was 8388608.
+==30437== 48 bytes in 1 blocks are definitely lost in loss record 1 of 4
+==30437==    at 0x4C2B0E0: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30437==    by 0x402242: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:81)
+==30437==    by 0x401D98: test_big(int, int, int, bool, bool, bool) (driver.cpp:337)
+==30437==    by 0x4020EC: test5() (driver.cpp:430)
+==30437==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30437==    by 0x4021FD: main (driver.cpp:473)
+==30437== 
+==30437== 100 bytes in 1 blocks are definitely lost in loss record 2 of 4
+==30437==    at 0x4C2B800: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30437==    by 0x4022E7: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:104)
+==30437==    by 0x401D98: test_big(int, int, int, bool, bool, bool) (driver.cpp:337)
+==30437==    by 0x4020EC: test5() (driver.cpp:430)
+==30437==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30437==    by 0x4021FD: main (driver.cpp:473)
+==30437== 
+==30437== 540 bytes in 1 blocks are definitely lost in loss record 3 of 4
+==30437==    at 0x4C2B800: operator new[](unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==30437==    by 0x40227B: CS170::WarBoats::CreateOcean(int, int, int) (Ocean.cpp:87)
+==30437==    by 0x401D98: test_big(int, int, int, bool, bool, bool) (driver.cpp:337)
+==30437==    by 0x4020EC: test5() (driver.cpp:430)
+==30437==    by 0x4020FD: ExecuteTest(void (*)(), int, int) (driver.cpp:442)
+==30437==    by 0x4021FD: main (driver.cpp:473)
+==30437== 
+!!!!! Something bad happened running valgrind --suppressions=/home/mmead/bin/false.supp -q --leak-check=full --show-reachable=yes --tool=memcheck ./driver.exe 5  (No child processes) !!!!!
+
+============================================================
+End of report for anthony.m

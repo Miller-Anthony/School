@@ -1,0 +1,26 @@
+﻿  Engine.c
+  GameManager.c
+  InputManager.c
+  SceneManager.c
+  SceneTable.c
+  Scene_DigiPenLogo.c
+  Scene_Game.c
+e:\anthony.m\2018\fall semester\gam100\updated c processing\source\scene_game.c(238): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\updated c processing\source\scene_game.c(390): warning C4013: 'SceneManagerSetNextScene' undefined; assuming extern returning int
+  Scene_GameOver.c
+  Scene_MainMenu.c
+e:\anthony.m\2018\fall semester\gam100\updated c processing\source\scene_mainmenu.c(87): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+e:\anthony.m\2018\fall semester\gam100\updated c processing\source\scene_mainmenu.c(88): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  SoundManager.c
+  main.c
+  Generating code
+  Finished generating code
+  2 of 70 functions ( 2.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Processing_Sample.vcxproj -> E:\anthony.m\2018\Fall Semester\GAM100\updated C Processing\Release\Processing_Sample.exe
+  1 File(s) copied
+  1 File(s) copied
+  1 File(s) copied
+  1 File(s) copied
+  30 File(s) copied

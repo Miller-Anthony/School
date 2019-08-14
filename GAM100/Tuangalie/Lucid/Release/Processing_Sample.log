@@ -1,0 +1,397 @@
+﻿  Desk.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\desk.c(56): warning C4101: 'holder': unreferenced local variable
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\desk.c(160): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\desk.c(161): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\desk.c(162): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  Engine.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\engine.c(93): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\engine.c(134): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+  InputManager.c
+  main.c
+  NPC.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\npc.c(132): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\npc.c(133): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\npc.c(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\npc.c(135): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\npc.c(176): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\npc.c(177): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\npc.c(287): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\npc.c(295): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+  PlayerManager.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\playermanager.c(40): warning C4013: 'sprintf_s' undefined; assuming extern returning int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\playermanager.c(63): warning C4459: declaration of 'walkStop' hides global declaration
+  c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\playermanager.c(22): note: see declaration of 'walkStop'
+  SceneManager.c
+  SceneTable.c
+  Scene_Clock.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_clock.c(54): warning C4013: 'sprintf_s' undefined; assuming extern returning int
+  Scene_DigiPenLogo.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_digipenlogo.c(68): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_digipenlogo.c(81): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Scene_Game.c
+  Scene_GameOver.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_gameover.c(47): warning C4013: 'sprintf_s' undefined; assuming extern returning int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_gameover.c(96): warning C4013: 'fadein' undefined; assuming extern returning int
+  Scene_LevelSelect.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(42): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(42): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(98): warning C4013: 'sprintf_s' undefined; assuming extern returning int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(201): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(202): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(203): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(253): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(257): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(268): warning C4013: 'fadeout' undefined; assuming extern returning int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(272): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(276): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(295): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(299): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(318): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(322): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(341): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(345): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(363): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(367): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(389): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_levelselect.c(391): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  Scene_MainMenu.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_mainmenu.c(75): warning C4013: 'sprintf_s' undefined; assuming extern returning int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_mainmenu.c(110): warning C4020: 'getReverb': too many actual parameters
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_mainmenu.c(153): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_mainmenu.c(211): warning C4013: 'fadeout' undefined; assuming extern returning int
+  Scene_PHYtest.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(25): warning C4013: 'fadeLoad' undefined; assuming extern returning int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(31): warning C4013: 'fadein' undefined; assuming extern returning int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(32): warning C4013: 'fadeout' undefined; assuming extern returning int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(51): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(56): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(72): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(77): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(89): warning C4047: 'function': 'float *' differs in levels of indirection from 'float **'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(89): warning C4024: 'enableRIGHTLEFT': different types for formal and actual parameter 1
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(90): warning C4047: 'function': 'float *' differs in levels of indirection from 'float **'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(90): warning C4024: 'enableUPDOWN': different types for formal and actual parameter 1
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(87): warning C4100: 'positionX': unreferenced formal parameter
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(87): warning C4100: 'positionY': unreferenced formal parameter
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(117): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(119): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(121): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(123): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(274): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(280): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(286): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(292): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(133): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(134): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(135): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(136): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(137): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(140): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(141): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(142): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(153): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(154): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(155): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(167): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(168): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(169): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(181): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(182): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(183): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(195): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(196): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(197): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(198): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(199): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(203): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(204): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(205): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(217): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(218): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(219): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(231): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(232): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(233): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(245): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(246): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(247): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(103): warning C4101: 'orange': unreferenced local variable
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(102): warning C4101: 'magenta': unreferenced local variable
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(98): warning C4101: 'yelloish': unreferenced local variable
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(107): warning C4101: 'lime': unreferenced local variable
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(101): warning C4101: 'lightblue': unreferenced local variable
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(99): warning C4101: 'sand': unreferenced local variable
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(331): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(332): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(333): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(334): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(335): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(337): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(338): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(339): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(340): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(341): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(344): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(346): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(348): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(350): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(352): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(354): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(356): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(358): warning C4204: nonstandard extension used: non-constant aggregate initializer
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(331): warning C4189: 'ORC': local variable is initialized but not referenced
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(337): warning C4189: 'ORP': local variable is initialized but not referenced
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(372): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(373): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(378): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(383): warning C4244: 'function': conversion from 'double' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_phytest.c(395): warning C4013: 'sprintf_s' undefined; assuming extern returning int
+  Scene_Room1.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(56): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(111): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(113): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(114): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(132): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(133): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(136): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(137): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(140): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(141): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(144): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(145): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(148): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(149): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(152): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(153): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(156): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(157): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(160): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(161): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(164): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(165): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(168): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(169): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(172): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(173): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(176): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(177): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(189): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(190): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(191): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(192): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(194): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(195): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(196): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(197): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(199): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(200): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(201): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(202): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(206): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(231): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(232): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(244): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(245): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(246): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(247): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(263): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(268): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(278): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(279): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(280): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(281): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(282): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(283): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(350): warning C4013: 'fadeout' undefined; assuming extern returning int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c(356): warning C4013: 'fadein' undefined; assuming extern returning int
+  Scene_Room2.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(102): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(103): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(159): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(160): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(178): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(195): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(196): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(199): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(200): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(203): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(204): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(207): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(208): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(211): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(212): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(215): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(216): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(219): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(220): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(223): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(224): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(227): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(228): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(231): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(232): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(235): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(236): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(239): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(240): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(267): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(268): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(280): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(281): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(293): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(294): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(299): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(300): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(301): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(302): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(304): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(305): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(306): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(307): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(309): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(310): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(311): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(312): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(315): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(340): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(341): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(353): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(354): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(355): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(356): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(370): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(371): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(372): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(373): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(374): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(375): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(382): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(387): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(397): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(409): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(412): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(413): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(414): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(415): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(416): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(417): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(431): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(446): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(449): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(450): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(451): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(452): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(453): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(454): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(462): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(468): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(472): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(481): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(496): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(497): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(498): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(499): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(500): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(501): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(505): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(515): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(532): warning C4013: 'fadeout' undefined; assuming extern returning int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c(538): warning C4013: 'fadein' undefined; assuming extern returning int
+  Scene_Room3.c
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(156): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(158): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(159): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(196): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(197): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(200): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(201): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(204): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(205): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(208): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(209): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(212): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(213): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(216): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(217): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(220): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(221): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(224): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(225): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(228): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(229): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(232): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(233): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(236): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(237): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(240): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(241): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(252): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(253): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(254): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(255): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(257): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(258): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(259): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(260): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(262): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(263): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(264): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(265): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(268): warning C4305: 'function': truncation from 'double' to 'float'
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(292): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(293): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(307): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(308): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(309): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(310): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(330): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(331): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(332): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(333): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(334): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(335): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(350): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(366): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(373): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(374): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(375): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(376): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(377): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(378): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(390): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(400): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(407): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(408): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(409): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(410): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(411): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(412): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(418): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(423): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(433): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(445): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(452): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(453): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(454): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(455): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(456): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(457): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(469): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(477): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(505): warning C4013: 'fadeout' undefined; assuming extern returning int
+c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c(511): warning C4013: 'fadein' undefined; assuming extern returning int
+  Scene_Room4.c
+LINK : warning C4744: 'timer' has different type in 'c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room1.c' and 'c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_digipenlogo.c': 'float' and 'int'
+LINK : warning C4744: 'timer' has different type in 'c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room2.c' and 'c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_digipenlogo.c': 'float' and 'int'
+LINK : warning C4744: 'timer' has different type in 'c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_room3.c' and 'c:\users\anthony laptop\desktop\digipen\anthony.m\2018\fall semester\gam100\tuangalie\lucid\source\scene_digipenlogo.c': 'float' and 'int'
+  Generating code
+  53 of 53 functions (100.0%) were compiled.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Processing_Sample.vcxproj -> C:\Users\Anthony Laptop\Desktop\DigiPen\anthony.m\2018\Fall Semester\GAM100\Tuangalie\Lucid\Release\Processing_Sample.exe
+  1 File(s) copied
+  1 File(s) copied
+  1 File(s) copied
+  1 File(s) copied
+  363 File(s) copied

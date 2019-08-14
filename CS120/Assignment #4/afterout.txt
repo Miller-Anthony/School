@@ -1,0 +1,100 @@
+
+Test0 ======================================
+length of a is 1
+length of b is 4
+length of c is 0
+length of d is 174
+
+Test1 ======================================
+Original phrase:
+THIS IS A SECRET.
+
+Encoded phrase:
+xkst mvJb whmsExQ
+
+Test2 ======================================
+Encoded phrase:
+xkstDl}AeC}fguouR
+
+Decoded back:
+THISDHZDCYC=ToQ/
+
+Test3 ======================================
+Original phrase:
+This is a secret.
+
+Encoded phrase:
+Uhjs!it b tedrft/
+
+Test4 ======================================
+Encoded phrase:
+Uijt!jt!b!tfdsfu/
+
+Decoded back:
+Tiit js!a!sfcseu.
+
+Test5 ======================================
+Original phrase:
+ABCDEFG
+
+Encoded phrase:
+BDFDFHJ
+
+Decoded back:
+ABCDEFG
+
+Test6 ======================================
+Original phrase:
+ABCDEFG
+
+Encoded phrase:
+BDFDFHJ
+
+Encoded again:
+CFIDGJM
+
+Decoded once:
+BDFDFHJ
+
+Decoded twice:
+ABCDEFG
+
+Test7 ======================================
+Original phrase:
+This is a secret.
+
+Encoded phrase:
+Yhns%ix f xehrjt3
+
+Decoded back:
+This is a secret.
+
+Test8 ======================================
+Original phrase:
+Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.
+
+Encoded phrase:
+Govr!sdose!aod!sfvfn!yfass!aho!ovr!fbtiess!bsovgit!fpruh!oo uhjs!cpnuioeot!a!nfw!nbtjoo,!cpndejvfd!io micestz bne eeeidauee uo!tie!psoqotiuipn!tiau blm neo brf drfauee fqvam.
+
+Decoded back:
+Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.
+
+Test9 ======================================
+Original phrase:
+Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.
+
+Encoded phrase:
+x¼Â˜CÉc¡¿²F„ÄdRÀ²œˆÄ «²®˜–va™¼m•˜È ˜®ÁˆÈsR¯¿•˜½h¦m³••ÊhR¼»F—¾i¥m°•‘Êi ²»šC·  ²ÄF‘·t›¼»RC¹o °²™»dR¶»F¿b—¿ÁŸC·n–m±‹‡¿c“Á²ŠCÊoRÁµ‹CÆr¡½¼™ŒÊi¡»mš‹·tR®¹’CÃe m®˜ˆvc¤²®šˆº —¾Â‡„
+
+Decoded back:
+Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.
+
+Test10 ======================================
+Original phrase:
+batman
+
+Encoded phrase:
+(#`7a4
+
+Decoded back:
+batman

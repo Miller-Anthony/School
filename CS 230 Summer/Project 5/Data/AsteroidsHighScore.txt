@@ -1,0 +1,18 @@
+GameObject
+HudTextHighScore
+Transform
+-375 270
+0
+20 30
+Physics
+0 0
+0 0
+Sprite
+0
+1
+Mesh16x6
+SpriteSourceFontSheet
+BehaviorHudText
+-1
+0
+0.0

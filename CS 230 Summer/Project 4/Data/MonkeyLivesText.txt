@@ -1,0 +1,12 @@
+GameObject
+LivesText
+Transform
+-350 250
+0
+50 50
+Physics
+0 0
+0 0
+Sprite
+0
+1

@@ -1,0 +1,14 @@
+Settings File - 
+  Resolution:
+    w = windowed
+    f = fullscreen
+    0 - 1080p
+    1 = 720p
+
+Save Files - 
+  Line 1: Current Boss
+  Line 2: Currency held
+  Line 3: Level of sword
+  Line 4: Level of helmet
+  Line 5: Level of chest
+  Line 6: Level of legs

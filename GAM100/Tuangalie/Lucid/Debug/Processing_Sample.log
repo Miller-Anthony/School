@@ -1,0 +1,28 @@
+﻿  Scene_LevelSelect.c
+e:\tuangalie\lucid\source\scene_levelselect.c(42): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+e:\tuangalie\lucid\source\scene_levelselect.c(42): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+e:\tuangalie\lucid\source\scene_levelselect.c(98): warning C4013: 'sprintf_s' undefined; assuming extern returning int
+e:\tuangalie\lucid\source\scene_levelselect.c(201): warning C4305: 'function': truncation from 'double' to 'float'
+e:\tuangalie\lucid\source\scene_levelselect.c(202): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(203): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(253): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(257): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(268): warning C4013: 'fadeout' undefined; assuming extern returning int
+e:\tuangalie\lucid\source\scene_levelselect.c(272): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(276): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(295): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(299): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(318): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(322): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(341): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(345): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(363): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(367): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(389): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+e:\tuangalie\lucid\source\scene_levelselect.c(391): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  Processing_Sample.vcxproj -> E:\Tuangalie\Lucid\Debug\Processing_Sample.exe
+  1 File(s) copied
+  1 File(s) copied
+  1 File(s) copied
+  1 File(s) copied
+  363 File(s) copied

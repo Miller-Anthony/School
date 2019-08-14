@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Stub.c" />
+    <ClCompile Include="Source\AI.c">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.c">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Objects.c">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite.c">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteSource.c">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Transform.c">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManager.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\stdafx.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateStub.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateTable.c">
+      <Filter>GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateLevel2.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ArmorShop.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InventoryStored.c">
+      <Filter>Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InventoryWorn.c">
+      <Filter>Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ItemData.c">
+      <Filter>Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Trace.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics.c">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision.c">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionResolution.c">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Animation.c">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateLevel1.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Credits.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Menu.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Title.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Settings.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StartSettings.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.c">
+      <Filter>Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateTown.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateStatement.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateLose.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateWin.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DT.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateBattleRoyale.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PvP.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStatePVP.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OST.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PauseMenu.c">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SaveSelect.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateTutorial.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStatePvPEquip.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateBREnd.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particle.c">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEmitter.c">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleManager.c">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStatePhysicalTown.c">
+      <Filter>GameStates\Levels</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Stub.h" />
+    <ClInclude Include="Source\AI.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Objects.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteSource.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Transform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\stdafx.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\targetver.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateStub.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateTable.h">
+      <Filter>GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateLevel1.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateLevel2.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ArmorShop.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InventoryStored.h">
+      <Filter>Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InventoryWorn.h">
+      <Filter>Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ItemData.h">
+      <Filter>Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Trace.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CollisionResolution.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Text.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animation.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Credits.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Menu.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Title.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Settings.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StartSettings.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DT.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateTown.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateStatement.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateLose.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateWin.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateBattleRoyale.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PvP.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStatePVP.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\OST.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PauseMenu.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SaveSelect.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateTutorial.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStatePvPEquip.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateBREnd.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitter.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleManager.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStatePhysicalTown.h">
+      <Filter>GameStates\Levels</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{3f176ad0-6267-4ecc-a852-c0a8f2ae2d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{b6bfd3d7-0316-4f9b-bf85-19c882608dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{f80aff8e-a7bf-4cc0-8d96-4967ca3355a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates">
+      <UniqueIdentifier>{b60e673a-b826-43d3-b40d-85a25eea6dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameStates\Levels">
+      <UniqueIdentifier>{b65d3833-e01c-4ddf-88f2-158e235313f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{3fb699ec-592b-4193-95d3-3766a5fa68cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inventory">
+      <UniqueIdentifier>{df2fdbc7-faf5-4bce-965d-0b5322f5b26b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
